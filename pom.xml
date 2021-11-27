@@ -10,8 +10,8 @@
   <description>Selenium Example</description>
 
   <properties> 
-    <selenium.url>http://localhost:4444/wd/hub</selenium.url>
-    <selenium.browser>firefox</selenium.browser>
+    <selenium.url>http://selenium-hub.apps.shared-na46.openshift.opentlc.com/wd/hub</selenium.url>
+    <selenium.browser>chrome</selenium.browser>
     <sleep>10000</sleep>
   </properties> 
 
