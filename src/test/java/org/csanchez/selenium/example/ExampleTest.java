@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ExampleTest {
 
-    private final static String SELENIUM_URL = System.getProperty("selenium.url", "http://localhost:4444/wd/hub");
+    private final static String SELENIUM_URL = System.getProperty("selenium.url", "http://selenium-hub.apps.shared-na46.openshift.opentlc.com/wd/hub");
     private final static String SELENIUM_BROWSER = System.getProperty("selenium.browser", "chrome");
     private final static int SLEEP = Integer.parseInt(System.getProperty("sleep", "10000"));
 
