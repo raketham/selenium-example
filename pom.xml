@@ -13,6 +13,8 @@
     <selenium.url>http://selenium-hub.apps.shared-na46.openshift.opentlc.com/wd/hub</selenium.url>
     <selenium.browser>chrome</selenium.browser>
     <sleep>10000</sleep>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties> 
 
   <dependencies>
